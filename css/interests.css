@@ -1,0 +1,58 @@
+/* This is the CSS for my Interests page */
+
+/* This is the CSS for my new website. */
+
+*{
+	margin-top: 60px;
+}
+
+a{
+	font-family: "Scheherazade", serif; 
+	font-size: 25px;
+	list-style-type:none; /* takes the bullet points out */	
+}
+	
+li a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline; /*When you hover over a nav item, an underline appears */
+}
+
+li{
+	display: inline;	
+	padding-top: 10cm;
+	margin-right: 20px;
+}
+
+#nameo{ /*Styling for my name! */
+	font-family: "Rhodium Libre", serif; /*Google font */
+	font-size: 35px;
+	padding-top: 500px;
+	padding-left: 200px;
+	padding-right: 615px;
+}	
+
+footer{
+	text-align: center; 
+	padding-top: 5cm;
+}
+
+.intimg{
+	display: block;
+	height: 304px;
+	width: 25%;
+	margin: 0px auto;
+} 
+
+p{
+	text-align: center;
+	padding-top: 0;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:22px;
+}
+
+/*Shape outside. Shape image threshold */
+

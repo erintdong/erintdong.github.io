@@ -1,0 +1,73 @@
+/* This is the CSS for my new website. */
+
+*{
+	margin-top: 60px;
+}
+
+img{ 
+	display: block;   /* To center an image, make it into a block element like here */
+	margin: auto;    /* margin: auto horizontally centers a block element */
+	height: 500px;
+	width: 75%;
+	padding-top: 1cm;
+}
+
+a{
+	font-family: "Scheherazade", serif; 
+	font-size: 25px;
+	list-style-type:none; /* takes the bullet points out */
+	
+	
+}
+	
+li a{
+	text-decoration: none;
+	color: black;
+}
+
+/* REMEMBER THIS, ERIN: When setting the style for several link states, there are some order rules:
+- a:hover MUST come after a:link and a:visited
+- a:active MUST come after a:hover */
+
+a:hover{
+	text-decoration: underline; /*When you hover over a nav item, an underline appears */
+}
+
+li{
+	display: inline;	
+	padding-top: 10cm;
+	margin-right: 20px;
+}
+
+#nameo{ /*Styling for my name! */
+	font-family: "Rhodium Libre", serif; /*Google font */
+	font-size: 35px;
+	padding-top: 500px;
+	padding-left: 200px;
+	padding-right: 615px;
+}	
+
+footer{ 
+	text-align: center; 
+	padding-top: 5cm;
+}
+
+h1{ /* budding developer heading */
+	font-size: 35px;
+	text-align: center;
+	letter-spacing: 4px;
+	font-family: "Courier New", Courier, monospace;	
+}
+
+p{
+	display: block;
+	margin: auto;
+	font-size:22px;
+	text-indent: 50px;
+	padding-top: 20px;
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+

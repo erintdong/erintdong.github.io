@@ -1,0 +1,62 @@
+/* This is the CSS for my new website. */
+
+*{
+	margin-top: 60px;
+}
+
+.me{
+	float: left;
+	/* display: block;
+	margin: auto; */
+	height: 500px;
+	width: 450px;
+	padding-left: 250px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+}
+
+a{
+	font-family: "Scheherazade", serif; 
+	font-size: 25px;
+	list-style-type:none; /* takes the bullet points out */	
+}
+	
+li a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline; /*When you hover over a nav item, an underline appears */
+}
+
+li{
+	display: inline;	
+	padding-top: 10cm;
+	margin-right: 20px;
+}
+
+#nameo{ /*Styling for my name! */
+	font-family: "Rhodium Libre", serif; /*Google font */
+	font-size: 35px;
+	padding-top: 500px;
+	padding-left: 200px;
+	padding-right: 615px;
+}	
+
+footer{
+	text-align: center; 
+	padding-top: 5cm;
+}
+
+p{
+	display: block;
+	margin: auto;
+	font-size:22px;
+	text-indent: 70px;
+	padding-top: 50px;
+	padding-right: 250px;
+	padding-left: 250px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
